@@ -14,4 +14,4 @@ This is my beginner portfolio website built in HTML & CSS only.
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Contact  
-Created by [Steph Ran]() - feel free to reach out!
+Created by [Steph Ran]() - feel free to reach out!!
