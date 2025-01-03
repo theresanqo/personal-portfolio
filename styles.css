@@ -406,6 +406,10 @@ footer {
     #skills-section i {
         font-size: 2rem;
     }
+
+    #skills-section .skills-container {
+        gap: 1.25rem;
+     }
 }
 
 @media (max-width: 576px) {
@@ -443,7 +447,7 @@ footer {
     }
 
     #skills-section .skills-container {
-       gap: 1.25rem;
+       gap: 1rem;
     }
 
     section {
