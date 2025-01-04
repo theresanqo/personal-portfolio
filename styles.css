@@ -258,14 +258,13 @@ section h2::after {
     border: 1px solid #d7dbd8;
     border-radius: 0.5rem;
     padding: 1rem;
-    margin: 0 0.5rem;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling */
 }
 
 .project-box:hover {
-    transform: scale(1.05); /* Grow the box slightly on hover */
+    transform: scale(0.95); /* Grow the box slightly on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -461,4 +460,21 @@ footer {
     #leave-message-section {
         padding: 3rem 1rem; /* Adjust padding for smaller screens */
     }
+}
+
+/* Cards Swiper */
+.swiper {
+    width: 100%;
+  }
+
+.swiper-slide {
+    width: 272px !important;
+    height: 375.75px;
+}
+
+.swiper-slide > a {
+    display: block;
+    transform: scale(0.9);
+    width: 272px;
+    height: 375.75px;
 }
