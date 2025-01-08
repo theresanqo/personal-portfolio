@@ -374,7 +374,31 @@ footer {
     font-size: 0.875rem;
 }
 
+/* Cards Swiper */
+.swiper {
+    width: 100%;
+  }
+
+.swiper-slide {
+    width: 272px !important;
+    height: 375.75px;
+}
+
+.swiper-slide > a {
+    display: block;
+    transform: scale(0.9);
+    width: 272px;
+    height: 375.75px;
+}
+
+
 /* Media Queries for Responsiveness */
+@media (min-width: 1690px) {
+    .swiper-wrapper {
+        justify-content:center;
+    }
+}
+
 @media (max-width: 992px) {
     nav .left a {
         font-size: 1.25rem;
@@ -477,21 +501,4 @@ footer {
     #leave-message-section {
         padding: 3rem 1rem; /* Adjust padding for smaller screens */
     }
-}
-
-/* Cards Swiper */
-.swiper {
-    width: 100%;
-  }
-
-.swiper-slide {
-    width: 272px !important;
-    height: 375.75px;
-}
-
-.swiper-slide > a {
-    display: block;
-    transform: scale(0.9);
-    width: 272px;
-    height: 375.75px;
 }
