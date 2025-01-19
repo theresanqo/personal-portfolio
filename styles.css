@@ -384,6 +384,7 @@ footer {
 /* Cards Swiper */
 .swiper {
     width: 100%;
+    overflow-x: scroll !important;
   }
 
 .swiper-slide {
